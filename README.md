@@ -6,6 +6,9 @@ A Kalman Filter implementation for fusing GPS and IMU sensor data to estimate 2D
 
 IMU sensors provide high-frequency measurements but drift over time. GPS provides accurate global positions but only updates at 1 Hz. This project fuses both using a Kalman Filter to get continuous, low-noise pose estimates at 100 Hz.
 
+<img width="535" height="511" alt="sensorFusion" src="https://github.com/user-attachments/assets/f1e37407-4ba8-49e2-955c-874d38f7b8a9" />
+
+
 ## State Vector
 
 The 7-dimensional state vector tracks:
